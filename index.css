@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input,
+label {
+  display: block;
+}
+
+form {
+  background-color: #e6e6e6;
+  padding: 1rem;
+  width: 20rem;
+  display: block;
+}
+.input-area {
+  display: flex;
+  flex-direction: column;
+}
+.submit-btn {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+.submit {
+  all: unset;
+  cursor: pointer;
+  width: 100%;
+  background-color: green;
+  color: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+input::-webkit-inner-spin-button {
+  display: none;
+}
+input:focus {
+  outline: 1px solid green;
+}
+
+.output-data {
+  margin-top: 1rem;
+  border-radius: 5px;
+  padding: 0.5rem;
+  /* width: 100%; */
+}
+
+table {
+  margin-top: 2rem;
+  border-collapse: collapse;
+  width: 30%;
+}
+th,
+td {
+  padding: 0.3rem;
+  border: 1px solid black;
+}
+td{
+  padding-left: 1rem;
+}
+
+.output {
+  display: flex;
+}
+.output:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+.output section {
+  display: block;
+  border: 1px solid gray;
+  width: 50%;
+  padding: 1rem;
+}
+.hidden {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
